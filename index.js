@@ -1,4 +1,4 @@
-// bring in the express server and create application
+// Bring in the express server and create application
 let express = require('express');
 let app = express();
 let pieRepo = require('./repos/pieRepo');
