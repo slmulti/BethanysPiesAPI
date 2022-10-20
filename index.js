@@ -3,7 +3,7 @@ let express = require('express');
 let app = express();
 let pieRepo = require('./repos/pieRepo');
 
-//use the express router object
+//Use the express router object
 let router = express.Router();
 
 // create GET top return a list of all pies
